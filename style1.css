@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.warper {
+    background: url(./images/bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: .9;
+    background-color: darkgray;
+}
+.nav-bar {
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+}
+.nav-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.nav-bar ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+}
+.nav-bar a :hover
+{
+    background: red;
+    color: #fff;
+    border-radius: 10px;
+}
+.warper .para {
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    transform: translate(-50% 50%);
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
