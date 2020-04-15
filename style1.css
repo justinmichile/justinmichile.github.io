@@ -29,21 +29,27 @@
   color: wheat;
   font-size: 20px;
 }
-.nav-bar a active,
-:hover {
+.nav-bar a:hover {
   background: red;
   color: #fff;
   border-radius: 10px;
 }
-.warper .para {
+.warper .para  {
   position: absolute;
   top: 45%;
-  left: 20%;
-  transform: translate(-50% 50%);
-  font-size: 30px;
+  left: 25%;
+  transform: translate(-40% 50%);
   color: #fff;
-  text-align: center;
+  
+}
+.para h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 20px;
+    text-align: center;
+
 }
 .para p {
   text-align: center;
+  font-size: 30px;
 }
